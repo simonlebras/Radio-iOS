@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B61A0B3775004D7A5EECD11 /* Pods_RadioFranceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 230F33AB9649616F328D5722 /* Pods_RadioFranceUITests.framework */; };
+		5828F9AFFFA214B4AAE7BAD5 /* Pods_RadioFrance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16BDFBF2B33860CFE863AE36 /* Pods_RadioFrance.framework */; };
 		F4013919206EA45900463257 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4013918206EA45900463257 /* AppDelegate.swift */; };
 		F401391B206EA45900463257 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F401391A206EA45900463257 /* ViewController.swift */; };
 		F401391E206EA45900463257 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F401391C206EA45900463257 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		F4013923206EA45B00463257 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4013921206EA45B00463257 /* LaunchScreen.storyboard */; };
 		F401392E206EA45B00463257 /* RadioFranceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F401392D206EA45B00463257 /* RadioFranceTests.swift */; };
 		F4013939206EA45B00463257 /* RadioFranceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4013938206EA45B00463257 /* RadioFranceUITests.swift */; };
+		FBA098682615A8CD70C91DF3 /* Pods_RadioFranceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6086FF638160CA8BA6514B50 /* Pods_RadioFranceTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16BDFBF2B33860CFE863AE36 /* Pods_RadioFrance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RadioFrance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		230F33AB9649616F328D5722 /* Pods_RadioFranceUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RadioFranceUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		502F320B5806E2CFDCB4028D /* Pods-RadioFranceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioFranceUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RadioFranceUITests/Pods-RadioFranceUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6086FF638160CA8BA6514B50 /* Pods_RadioFranceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RadioFranceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88717B79B9B23F2ACD9CE45E /* Pods-RadioFrance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioFrance.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RadioFrance/Pods-RadioFrance.debug.xcconfig"; sourceTree = "<group>"; };
+		D8694B2D6C1C84AC3CC90627 /* Pods-RadioFrance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioFrance.release.xcconfig"; path = "Pods/Target Support Files/Pods-RadioFrance/Pods-RadioFrance.release.xcconfig"; sourceTree = "<group>"; };
+		DE8D24F0ADEB0E2F54A06B79 /* Pods-RadioFranceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioFranceUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RadioFranceUITests/Pods-RadioFranceUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F4013915206EA45900463257 /* RadioFrance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadioFrance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4013918206EA45900463257 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F401391A206EA45900463257 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,8 @@
 		F4013934206EA45B00463257 /* RadioFranceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadioFranceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4013938206EA45B00463257 /* RadioFranceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioFranceUITests.swift; sourceTree = "<group>"; };
 		F401393A206EA45B00463257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F433433332566905879B29B6 /* Pods-RadioFranceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioFranceTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RadioFranceTests/Pods-RadioFranceTests.release.xcconfig"; sourceTree = "<group>"; };
+		FFDBB8B30B1DF510BF27983E /* Pods-RadioFranceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioFranceTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RadioFranceTests/Pods-RadioFranceTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5828F9AFFFA214B4AAE7BAD5 /* Pods_RadioFrance.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBA098682615A8CD70C91DF3 /* Pods_RadioFranceTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B61A0B3775004D7A5EECD11 /* Pods_RadioFranceUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		53E26CDF80D0D1380B3E8650 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88717B79B9B23F2ACD9CE45E /* Pods-RadioFrance.debug.xcconfig */,
+				D8694B2D6C1C84AC3CC90627 /* Pods-RadioFrance.release.xcconfig */,
+				FFDBB8B30B1DF510BF27983E /* Pods-RadioFranceTests.debug.xcconfig */,
+				F433433332566905879B29B6 /* Pods-RadioFranceTests.release.xcconfig */,
+				502F320B5806E2CFDCB4028D /* Pods-RadioFranceUITests.debug.xcconfig */,
+				DE8D24F0ADEB0E2F54A06B79 /* Pods-RadioFranceUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8678AB6F466D846306627598 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16BDFBF2B33860CFE863AE36 /* Pods_RadioFrance.framework */,
+				6086FF638160CA8BA6514B50 /* Pods_RadioFranceTests.framework */,
+				230F33AB9649616F328D5722 /* Pods_RadioFranceUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F401390C206EA45900463257 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				F401392C206EA45B00463257 /* RadioFranceTests */,
 				F4013937206EA45B00463257 /* RadioFranceUITests */,
 				F4013916206EA45900463257 /* Products */,
+				53E26CDF80D0D1380B3E8650 /* Pods */,
+				8678AB6F466D846306627598 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F401393D206EA45B00463257 /* Build configuration list for PBXNativeTarget "RadioFrance" */;
 			buildPhases = (
+				34054957A3D03CACAFF0433C /* [CP] Check Pods Manifest.lock */,
 				F4013911206EA45900463257 /* Sources */,
 				F4013912206EA45900463257 /* Frameworks */,
 				F4013913206EA45900463257 /* Resources */,
+				6CA8E36A48CE4B42A8E3FE97 /* [CP] Embed Pods Frameworks */,
+				CB54F1FC3426B89952F6E248 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4013940206EA45B00463257 /* Build configuration list for PBXNativeTarget "RadioFranceTests" */;
 			buildPhases = (
+				758FE36CE456B4578D176D10 /* [CP] Check Pods Manifest.lock */,
 				F4013925206EA45B00463257 /* Sources */,
 				F4013926206EA45B00463257 /* Frameworks */,
 				F4013927206EA45B00463257 /* Resources */,
+				2647D1A405CE44186058E1F8 /* [CP] Embed Pods Frameworks */,
+				42D9B52AED33683F793FCB41 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4013943206EA45B00463257 /* Build configuration list for PBXNativeTarget "RadioFranceUITests" */;
 			buildPhases = (
+				4F95859AFCB4D472F6AB6653 /* [CP] Check Pods Manifest.lock */,
 				F4013930206EA45B00463257 /* Sources */,
 				F4013931206EA45B00463257 /* Frameworks */,
 				F4013932206EA45B00463257 /* Resources */,
+				D7F33C81CCF2A11CBE4C68A9 /* [CP] Embed Pods Frameworks */,
+				1BBABD2DE01C507434E92EF6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +299,162 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BBABD2DE01C507434E92EF6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RadioFranceUITests/Pods-RadioFranceUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2647D1A405CE44186058E1F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RadioFranceTests/Pods-RadioFranceTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34054957A3D03CACAFF0433C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RadioFrance-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42D9B52AED33683F793FCB41 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RadioFranceTests/Pods-RadioFranceTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F95859AFCB4D472F6AB6653 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RadioFranceUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CA8E36A48CE4B42A8E3FE97 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RadioFrance/Pods-RadioFrance-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libwebp.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RadioFrance/Pods-RadioFrance-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		758FE36CE456B4578D176D10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RadioFranceTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB54F1FC3426B89952F6E248 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RadioFrance/Pods-RadioFrance-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7F33C81CCF2A11CBE4C68A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RadioFranceUITests/Pods-RadioFranceUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F4013911206EA45900463257 /* Sources */ = {
@@ -428,14 +633,12 @@
 		};
 		F401393E206EA45B00463257 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88717B79B9B23F2ACD9CE45E /* Pods-RadioFrance.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RadioFrance/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.simonlebras.RadioFrance;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -445,14 +648,12 @@
 		};
 		F401393F206EA45B00463257 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8694B2D6C1C84AC3CC90627 /* Pods-RadioFrance.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RadioFrance/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.simonlebras.RadioFrance;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -462,16 +663,13 @@
 		};
 		F4013941206EA45B00463257 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFDBB8B30B1DF510BF27983E /* Pods-RadioFranceTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RadioFranceTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.simonlebras.RadioFranceTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -482,16 +680,13 @@
 		};
 		F4013942206EA45B00463257 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F433433332566905879B29B6 /* Pods-RadioFranceTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RadioFranceTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.simonlebras.RadioFranceTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -502,15 +697,12 @@
 		};
 		F4013944206EA45B00463257 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 502F320B5806E2CFDCB4028D /* Pods-RadioFranceUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RadioFranceUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.simonlebras.RadioFranceUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -521,15 +713,12 @@
 		};
 		F4013945206EA45B00463257 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE8D24F0ADEB0E2F54A06B79 /* Pods-RadioFranceUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RadioFranceUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.simonlebras.RadioFranceUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
