@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4013919206EA45900463257 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4013918206EA45900463257 /* AppDelegate.swift */; };
+		F401391B206EA45900463257 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F401391A206EA45900463257 /* ViewController.swift */; };
+		F401391E206EA45900463257 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F401391C206EA45900463257 /* Main.storyboard */; };
+		F4013920206EA45B00463257 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F401391F206EA45B00463257 /* Assets.xcassets */; };
+		F4013923206EA45B00463257 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4013921206EA45B00463257 /* LaunchScreen.storyboard */; };
+		F401392E206EA45B00463257 /* RadioFranceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F401392D206EA45B00463257 /* RadioFranceTests.swift */; };
+		F4013939206EA45B00463257 /* RadioFranceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4013938206EA45B00463257 /* RadioFranceUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F401392A206EA45B00463257 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F401390D206EA45900463257 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4013914206EA45900463257;
+			remoteInfo = RadioFrance;
+		};
+		F4013935206EA45B00463257 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F401390D206EA45900463257 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4013914206EA45900463257;
+			remoteInfo = RadioFrance;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4013915206EA45900463257 /* RadioFrance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadioFrance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4013918206EA45900463257 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F401391A206EA45900463257 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F401391D206EA45900463257 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F401391F206EA45B00463257 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4013922206EA45B00463257 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4013924206EA45B00463257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4013929206EA45B00463257 /* RadioFranceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadioFranceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F401392D206EA45B00463257 /* RadioFranceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioFranceTests.swift; sourceTree = "<group>"; };
+		F401392F206EA45B00463257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4013934206EA45B00463257 /* RadioFranceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadioFranceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4013938206EA45B00463257 /* RadioFranceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioFranceUITests.swift; sourceTree = "<group>"; };
+		F401393A206EA45B00463257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4013912206EA45900463257 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4013926206EA45B00463257 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4013931206EA45B00463257 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F401390C206EA45900463257 = {
+			isa = PBXGroup;
+			children = (
+				F4013917206EA45900463257 /* RadioFrance */,
+				F401392C206EA45B00463257 /* RadioFranceTests */,
+				F4013937206EA45B00463257 /* RadioFranceUITests */,
+				F4013916206EA45900463257 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4013916206EA45900463257 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4013915206EA45900463257 /* RadioFrance.app */,
+				F4013929206EA45B00463257 /* RadioFranceTests.xctest */,
+				F4013934206EA45B00463257 /* RadioFranceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4013917206EA45900463257 /* RadioFrance */ = {
+			isa = PBXGroup;
+			children = (
+				F4013918206EA45900463257 /* AppDelegate.swift */,
+				F401391A206EA45900463257 /* ViewController.swift */,
+				F401391C206EA45900463257 /* Main.storyboard */,
+				F401391F206EA45B00463257 /* Assets.xcassets */,
+				F4013921206EA45B00463257 /* LaunchScreen.storyboard */,
+				F4013924206EA45B00463257 /* Info.plist */,
+			);
+			path = RadioFrance;
+			sourceTree = "<group>";
+		};
+		F401392C206EA45B00463257 /* RadioFranceTests */ = {
+			isa = PBXGroup;
+			children = (
+				F401392D206EA45B00463257 /* RadioFranceTests.swift */,
+				F401392F206EA45B00463257 /* Info.plist */,
+			);
+			path = RadioFranceTests;
+			sourceTree = "<group>";
+		};
+		F4013937206EA45B00463257 /* RadioFranceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4013938206EA45B00463257 /* RadioFranceUITests.swift */,
+				F401393A206EA45B00463257 /* Info.plist */,
+			);
+			path = RadioFranceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4013914206EA45900463257 /* RadioFrance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F401393D206EA45B00463257 /* Build configuration list for PBXNativeTarget "RadioFrance" */;
+			buildPhases = (
+				F4013911206EA45900463257 /* Sources */,
+				F4013912206EA45900463257 /* Frameworks */,
+				F4013913206EA45900463257 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RadioFrance;
+			productName = RadioFrance;
+			productReference = F4013915206EA45900463257 /* RadioFrance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4013928206EA45B00463257 /* RadioFranceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4013940206EA45B00463257 /* Build configuration list for PBXNativeTarget "RadioFranceTests" */;
+			buildPhases = (
+				F4013925206EA45B00463257 /* Sources */,
+				F4013926206EA45B00463257 /* Frameworks */,
+				F4013927206EA45B00463257 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F401392B206EA45B00463257 /* PBXTargetDependency */,
+			);
+			name = RadioFranceTests;
+			productName = RadioFranceTests;
+			productReference = F4013929206EA45B00463257 /* RadioFranceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4013933206EA45B00463257 /* RadioFranceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4013943206EA45B00463257 /* Build configuration list for PBXNativeTarget "RadioFranceUITests" */;
+			buildPhases = (
+				F4013930206EA45B00463257 /* Sources */,
+				F4013931206EA45B00463257 /* Frameworks */,
+				F4013932206EA45B00463257 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4013936206EA45B00463257 /* PBXTargetDependency */,
+			);
+			name = RadioFranceUITests;
+			productName = RadioFranceUITests;
+			productReference = F4013934206EA45B00463257 /* RadioFranceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F401390D206EA45900463257 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Simon Le Bras";
+				TargetAttributes = {
+					F4013914206EA45900463257 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					F4013928206EA45B00463257 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = F4013914206EA45900463257;
+					};
+					F4013933206EA45B00463257 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = F4013914206EA45900463257;
+					};
+				};
+			};
+			buildConfigurationList = F4013910206EA45900463257 /* Build configuration list for PBXProject "RadioFrance" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F401390C206EA45900463257;
+			productRefGroup = F4013916206EA45900463257 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4013914206EA45900463257 /* RadioFrance */,
+				F4013928206EA45B00463257 /* RadioFranceTests */,
+				F4013933206EA45B00463257 /* RadioFranceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4013913206EA45900463257 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4013923206EA45B00463257 /* LaunchScreen.storyboard in Resources */,
+				F4013920206EA45B00463257 /* Assets.xcassets in Resources */,
+				F401391E206EA45900463257 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4013927206EA45B00463257 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4013932206EA45B00463257 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4013911206EA45900463257 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F401391B206EA45900463257 /* ViewController.swift in Sources */,
+				F4013919206EA45900463257 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4013925206EA45B00463257 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F401392E206EA45B00463257 /* RadioFranceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4013930206EA45B00463257 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4013939206EA45B00463257 /* RadioFranceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F401392B206EA45B00463257 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4013914206EA45900463257 /* RadioFrance */;
+			targetProxy = F401392A206EA45B00463257 /* PBXContainerItemProxy */;
+		};
+		F4013936206EA45B00463257 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4013914206EA45900463257 /* RadioFrance */;
+			targetProxy = F4013935206EA45B00463257 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F401391C206EA45900463257 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F401391D206EA45900463257 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4013921206EA45B00463257 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4013922206EA45B00463257 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F401393B206EA45B00463257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F401393C206EA45B00463257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F401393E206EA45B00463257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RadioFrance/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.simonlebras.RadioFrance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F401393F206EA45B00463257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RadioFrance/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.simonlebras.RadioFrance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F4013941206EA45B00463257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RadioFranceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.simonlebras.RadioFranceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RadioFrance.app/RadioFrance";
+			};
+			name = Debug;
+		};
+		F4013942206EA45B00463257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RadioFranceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.simonlebras.RadioFranceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RadioFrance.app/RadioFrance";
+			};
+			name = Release;
+		};
+		F4013944206EA45B00463257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RadioFranceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.simonlebras.RadioFranceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RadioFrance;
+			};
+			name = Debug;
+		};
+		F4013945206EA45B00463257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RadioFranceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.simonlebras.RadioFranceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RadioFrance;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4013910206EA45900463257 /* Build configuration list for PBXProject "RadioFrance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F401393B206EA45B00463257 /* Debug */,
+				F401393C206EA45B00463257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F401393D206EA45B00463257 /* Build configuration list for PBXNativeTarget "RadioFrance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F401393E206EA45B00463257 /* Debug */,
+				F401393F206EA45B00463257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4013940206EA45B00463257 /* Build configuration list for PBXNativeTarget "RadioFranceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4013941206EA45B00463257 /* Debug */,
+				F4013942206EA45B00463257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4013943206EA45B00463257 /* Build configuration list for PBXNativeTarget "RadioFranceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4013944206EA45B00463257 /* Debug */,
+				F4013945206EA45B00463257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F401390D206EA45900463257 /* Project object */;
+}
