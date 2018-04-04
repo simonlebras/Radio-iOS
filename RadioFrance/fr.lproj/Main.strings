@@ -1,0 +1,9 @@
+
+/* Class = "UINavigationItem"; title = "Radio France"; ObjectID = "PrR-TS-tz3"; */
+"PrR-TS-tz3.title" = "Radio France";
+
+/* Class = "UIButton"; normalTitle = "Try Again"; ObjectID = "eIG-1X-1ur"; */
+"eIG-1X-1ur.normalTitle" = "Réessayer";
+
+/* Class = "UILabel"; text = "An error occured"; ObjectID = "pm4-cB-sbU"; */
+"pm4-cB-sbU.text" = "Une erreur s'est produite";
